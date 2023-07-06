@@ -22,8 +22,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     line-height: 1.3;
-
-    font-family: 'Commissioner', sans-serif;
   }
 
 `;
