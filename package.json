@@ -1,16 +1,25 @@
 {
   "name": "fm-crowdfunding-product-page",
-  "version": "1.0.0",
-  "description": "![Design preview for the Crowdfunding product page coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-dev": "sass --watch --update --style=expanded app/scss:dist/css",
-    "sass-prod": "sass --no-source-map --style=compressed app/scss:dist/css"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "Muhammad Rizwan",
-  "license": "ISC",
+  "dependencies": {
+    "@types/node": "20.4.0",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.8",
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
+  },
   "devDependencies": {
-    "sass": "^1.63.6"
+    "styled-components": "^6.0.2"
   }
 }
